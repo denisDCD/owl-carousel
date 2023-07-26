@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Sereno</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lib/owlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owlCarousel/owl.theme.default.min.css">
+</head>
+<body>
+    <div class="owl-carousel owl-theme">
+        <div class="galery item" id="galery1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTq4Cpc7JoFMgDty-VyRy-HDtbrTuOQLrfonEGbhdt&s" alt="">
+            <aside class="description zindex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam architecto qui neque</aside>
+        </div>
+        <div class="galery item" id="galery1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpaxb5haQoKvlC0oofKk6O4TySfkbe7uvX3cdGepDNAg&s" alt="">
+            <aside class="description zindex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam architecto qui neque</aside>
+        </div>
+        <div class="galery item" id="galery1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-pOy4VdZtusobMqgqlsypKHf8IhkZrhsZDUprcb2C8g&s" alt="">
+            <aside class="description zindex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam architecto qui neque</aside>
+        </div>
+    </div>
+    <script src="lib/Jquery/jquery.min.js"></script>
+    <script src="lib/owlCarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                items: 1,
+                // loop: true,
+                // autoplay: true,
+                // autoplayTimeout: 2000,
+                dots: true,
+                margin: 20
+            });
+        });
+    </script>
+</body>
+</html>
